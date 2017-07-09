@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /actions/
+Disallow: /classes/
+Disallow: /configurations/
+Disallow: /installation/
+Disallow: /locale/
+Disallow: /system/
+Disallow: /vendors/
+Disallow: /themes/
+

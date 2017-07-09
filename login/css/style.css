@@ -1,0 +1,44 @@
+* {
+  margin: 0 ;
+}
+html,body {
+  height: 100%;
+  background-color: blue;
+
+}
+.box1{
+
+    width: 240px;
+    height: 50px;
+    border-radius: 7px;
+    background:white;
+    margin-top: 150px;
+    margin-left:500px;
+
+
+}
+.box2{
+
+    width: 240px;
+    height: 50px;
+    border-radius: 7px;
+    background:white;
+    margin-top: 30px;
+    margin-left:500px;
+
+
+}.box3{
+
+    width: 240px;
+    height: 50px;
+    border-radius: 7px;
+    background:white;
+    margin-top: 30px;
+    margin-left:500px;
+}
+p {
+    text-align: center;
+    padding-top: 10px;
+    
+
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>
+    web page
+</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+
+
+<nav>
+  <a id="home" href="#homeSection">HOME</a>
+  <a id="about" href="#aboutSection">ABOUT</a>
+  <a id="activity" href="#activitySection">ACTIVITY</a>
+  <a id="contact" href="#contactSection">GALLERY</a>
+  <a id="comment" href="#commentSection">CONTACT US</a>
+  <a href="http://localhost/dashboard/login/login.html">LOGIN</a>
+
+</nav>
+<div id="homeSection" class="sect sectOne">
+  <div id="bg">
+  	<div class="container12">
+  		<ul id="scene">
+  			<li id="bg2" class="layer" data-depth="0.00"><img src="image/Untitled-1.png"></li>
+  			<li id="bg3" class="layer" data-depth="0.80"><img src="image/Untitled-2.png"></li>
+  			<li id="bg4" class="layer" data-depth="0.40"><img src="image/Untitled-3.png"></li>
+  			<li id="bg5" class="layer" data-depth="0.40"><img src="image/Untitled-5.png"></li>
+  		</ul>
+  	</div>
+  </div>
+
+</div>
+<div id="aboutSection" class="subSection">
+    <div>
+        <video poster="asd.jpg" autoplay="true" loop>
+            <source src="image/lo.mp4" type="video/mp4">
+            <source src="image/lo.webm" type="video/webm">
+        </video>
+  <p class="head">About Us</p>
+  <div>
+    <p id="aim" class="wow slideInLeft" data-wow-delay="1s">The mission of the Alumni Association of College of Engineering,Kidangoor, is to reach, engage and serve all alumni, present students by networking with one another to foster a life-long intellectual and emotional connection between the college and its graduates. The association serves the need of CEK alumni for leadership, voluntary commitment, goodwill, financial support, enhancing industry academic collaboration and communications including public relations.</p>
+  </div>
+  </div>
+</div>
+<div id="activitySection" class="sect sectTwo">
+<div id="mar">
+<div id="box1" class="wow bounceInLeft" data-wow-delay="0.75s"
+</div>
+
+  <p text align="center"><b>Lumiere 2017</b></p></br></br>
+  <p>The Annual Techno-Cultural Fest of College of Engineering Kidangoor, host the most wonderful set of competitions and exhibitions. The categorized section of events ensuring diversity in competitions provide the winner with kilos worth prizes.
+</p>
+  </div>
+  <div id="box2" class="wow bounceInUp" data-wow-delay="0.5s"
+</div>
+
+    <p text align="center"><b>Alumni Meet 2017</b></p></br></br>
+    <p>CEK Alumni meet is scheduled on 26/12/2015 (Saturday), 10.00 A.M at CEK as per the suggestions from the alumni executive meet held on 30th September 2015.
+
+Alumni meet is a reminder of our wonderful time in campus. You are invited to CEK, to reconnect with friends, explore the campus and discover something new
+
+during this Alumni meet. </p>
+    </div>
+    <div id="box3" class="wow bounceInRight" data-wow-delay="1s"
+  </div>
+    <p text align="center"><b>Freshers Day 2017</b></p></br></br>
+    <p>The very purpose of Freshers Day party is to welcome newcomers in a friendly atmosphere and avoid social evils, to encourage their creative impulses to boost their confidence.It is the day where seniors and juniors finally bond and unite to celebrate being part of the college.</p>
+      </div>
+</div>
+</div>
+<div id="contactSection" class="subSection">
+  <div id="img">
+  <p class="wow bounceInUp"><a href=../gallery/gallery.html>MORE IMAGES</a></p>
+</div>
+
+
+</div>
+<div id="commentSection" class="sect sectThree">
+<div id="cont">
+    <P class="conp">COLLEGE OF ENGINEERING KIDANGOOR ALUMNI ASSOCIATION</p>
+<p class="conp">KIDANGOOR SOUTH P.O</p>
+<p class="conp">KOTTAYAM, KERALA - 686583</p>
+<p class="conp">INDIA</p>
+<p class="conp">E-mail: info@cekalumni.com</P>
+</div>
+</div>
+
+<script src="js/parallax.min.js"></script>
+	<script>
+
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+  <script src="js/fader.js"></script>
+<script src="js/app.js"></script>
+<script src="js/img.js"></script>
+<script src="js/cycle2.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+</body>
+</html>
